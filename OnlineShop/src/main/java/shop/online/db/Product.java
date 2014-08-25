@@ -1,10 +1,8 @@
 package shop.online.db;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.text.DecimalFormat;
+import java.util.List;
 
 /**
  * Created by ann on 8/19/14.
@@ -16,6 +14,7 @@ public class Product {
 
     @Id
     @Column(name = "product_id")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     public int getId() {
@@ -145,5 +144,16 @@ public class Product {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    @OneToMany(targetEntity = OrderItem.class, mappedBy = "product")
+    private List<OrderItem> itemList;
+
+    public List<OrderItem> getItemList() {
+        return itemList;
+    }
+
+    public void setItemList(List<OrderItem> itemList) {
+        this.itemList = itemList;
     }
 }

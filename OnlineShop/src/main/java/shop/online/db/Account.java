@@ -1,9 +1,7 @@
 package shop.online.db;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "account")
@@ -11,6 +9,7 @@ public class Account {
 
     @Id
     @Column(name = "account_id")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     public int getId() {
@@ -63,5 +62,17 @@ public class Account {
 
     public void setSubscription(boolean subscription) {
         this.subscription = subscription;
+    }
+
+    @OneToMany(targetEntity = Order.class, mappedBy = "account")
+    private List<Order> orderList;
+
+
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        this.orderList = orderList;
     }
 }

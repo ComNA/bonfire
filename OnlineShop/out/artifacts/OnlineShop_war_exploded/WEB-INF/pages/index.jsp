@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
                     <ul class="nav-add clearfix">
-                        <li class="active nav-add-item"><a class="nav-add-link links-main" href="phone.html" >Phone</a>
+                        <li class="active nav-add-item"><a class="nav-add-link links-main" href="<c:url value="/shop/phone"/>" >Phone</a>
                         <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Tablet</a>
                         <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Laptop</a>
                         <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Accessories</a>

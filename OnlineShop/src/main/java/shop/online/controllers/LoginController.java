@@ -30,7 +30,7 @@ public class LoginController {
     public String login(@ModelAttribute("loginAttribute") Account account) {
         try {
             accountService.getAccount(new Account(), account.getUsername(), account.getPassword());
-            return "redirect:/secured/home";
+            return "redirect:/shop/home";
         } catch (Exception e) {
             e.printStackTrace();
             return "registration";
