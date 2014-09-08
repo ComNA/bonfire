@@ -24,6 +24,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script  type="text/javascript" src="<c:url value="/js/bootstrap.min.js"/>"></script>
+    <script type="text/javascript" src="<c:url value="/js/r-script.js"/>"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,41 +47,73 @@
     </header>
 
     <main class="main">
-        <form:form class="registr-form clearfix" method="POST" modelAttribute="registrationAttribute" role="form">
-            <div class="registr-item clearfix">
-                <label class="col-lg-6 registr-label">Registration data:</label>
+        <form class="registr-form clearfix" role="form" name="registration">
+            <div class="row">
+                <label class="col-lg-12 r-title">Registration data:</label>
             </div>
-            <div class="registr-item clearfix">
-                <label for="inputUsername" class="col-lg-5 registr-label">Username</label>
-                <div class="col-lg-2">
-                    <input type="text" class="input-common" id="inputUsername" name="inputUsername" placeholder="Username" autofocus required>
+            <div class="row">
+                <div class="registr-item clearfix">
+                    <label for="login_id" class="col-lg-4 registr-label">Username</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="input-common" name="login" id="login_id" placeholder="Username" value="" onkeypress="CountLogin('login_id')" onfocus="CountLogin('login_id')" onkeyup="CountLogin('login_id')" autofocus required>
+                        <div class="mini">entered: <span id="login_view">0</span></div>
+                    </div>
+                    <div class="col-lg-4 r-input-wrap">
+                        <div class="info-label" id="login_correct">no less than 5 symbols</div>
+                    </div>
                 </div>
             </div>
-            <div class="registr-item clearfix">
-                <label for="inputPassword" class="col-lg-5 registr-label">Password</label>
-                <div class="col-lg-2">
-                    <input type="password" class="input-common" id="inputPassword" name="inputPassword" placeholder="Password"  required>
+            <div class="row">
+                <div class="registr-item clearfix">
+                    <label for="pass_id" class="col-lg-4 registr-label">Password</label>
+                    <div class="col-lg-4">
+                        <input type="password" class="input-common" id="pass_id" placeholder="Password" value="" onkeypress="CountPass('pass_id')" onfocus="CountPass('pass_id')" onkeyup="CountPass('pass_id')" required>
+                        <div class="mini">entered: <span id="pass_view">0</span></div>
+                    </div>
+                    <div class="col-lg-4 r-input-wrap">
+                        <label class = "info-label" id="pass_correct">password should contain from 4 to 10 symbols</label>
+                    </div>
                 </div>
             </div>
-            <div class="registr-item clearfix">
-                <label for="inputPassword2" class="col-lg-5 registr-label">Confirm Password</label>
-                <div class="col-lg-2">
-                    <input type="password" class="input-common" id="inputPassword2" placeholder="Confirm Password"  required>
+            <div class="row">
+                <div class="registr-item clearfix">
+                    <label for="repass_id" class="col-lg-4 registr-label">Confirm Password</label>
+                    <div class="col-lg-4">
+                        <input type="password" class="input-common" id="repass_id" value="" placeholder="Confirm Password"
+                               onkeypress="CorrectPass('repass_id')" onfocus="CorrectPass('repass_id')" onkeyup="CorrectPass('repass_id')" required>
+                    </div>
+                    <div class="col-lg-4 r-input-wrap">
+                        <div id="repass_correct"></div>
+                    </div>
                 </div>
             </div>
-            <div class="registr-item clearfix">
-                <label for="inputEmail" class="col-lg-5 registr-label">Email</label>
-                <div class="col-lg-2">
-                    <input type="email" class="input-common" id="inputEmail" name="inputEmail" placeholder="Email"  required>
+            <div class="row">
+                <div class="registr-item clearfix">
+                    <label for="email_id" class="col-lg-4 registr-label">Email</label>
+                    <div class="col-lg-4">
+                        <input type="email" class="input-common" id="email_id" placeholder="Email" onkeypress="CorrectEmail(this)" onfocus="CorrectEmail(this)" onkeyup="CorrectEmail(this)" required>
+                    </div>
+                    <div class="col-lg-4 r-input-wrap">
+                        <div id="email_correct"></div>
+                    </div>
                 </div>
             </div>
-
-            <div class="registr-item">
-                <div class="col-lg-offset-5 col-lg-1">
-                    <button type="submit" class="button btn-sign">Sign in</button>
+            <div class="row">
+                <div class="registr-item clearfix">
+                    <div class="col-lg-offset-4 col-lg-2">
+                        <button type="submit" id = "submit_id" class="button btn-sign" value="SignIn" disabled >Sign in</button>
+                    </div>
+                    <div class="col-lg-4 r-input-wrap">
+                        <div id="check_correct"></div>
+                    </div>
                 </div>
             </div>
-        </form:form>
+        </form>
+        <input type="hidden" name="check_login" id="check_login" value="0" />
+        <input type="hidden" name="check_pass" id="check_pass" value="0" />
+        <input type="hidden" name="check_repass" id="check_repass" value="0" />
+        <input type="hidden" name="check_email" id="check_email" value="0" />
+        <input type="hidden" name="check_all" id="check_all" value="0" />
     </main>
     <div class="footer-push"></div>
 </section>

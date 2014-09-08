@@ -124,6 +124,73 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <!-- Button trigger modal -->
+            <button class="button btn-sign" data-toggle="modal" data-target="#myModal">
+                Add product
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel">New Phone</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <label for="product_name" class="col-lg-5 registr-label">Name of product</label>
+                                <div class="col-lg-7 col-md-5 col-sm-5 col-xs-5">
+                                    <input type="text" class="input-common" id="product_name" value="" placeholder="Enter name of product" autofocus required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="product_price" class="col-lg-5 registr-label">Price of product</label>
+                                <div class="col-lg-7 col-md-5 col-sm-5 col-xs-5">
+                                    <input type="text" class="input-common" id="product_price" value="" placeholder="Enter price of product" required>
+                                </div>
+                            <div>
+                            <div class="row row-popup">
+                                <label for="product_memory" class="col-lg-6 registr-label">Memory of product</label>
+                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                    <input type="text" class="input-common" id="product_memory" value="" placeholder="Enter memory of product" required>
+                                </div>
+                            </div>
+                            <div class="row row-padding">
+                                <label for="product_descr" class="col-lg-6 registr-label">Description of product</label>
+                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                    <input type="text" class="input-common" id="product_descr" value="" placeholder="Enter description of product" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="product_sim" class="col-lg-6 registr-label">Amount of sim</label>
+                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                    <input type="text" class="input-common" id="product_sim" value="" placeholder="Enter sim's count of product" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="product_ts" class="col-lg-6 registr-label">Amount of sim</label>
+                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                    <input type="checkbox" class="checkbox-item" id="product_ts" value="">Touchscreen
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="product_flashlight" class="col-lg-6 registr-label">Amount of sim</label>
+                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                    <input type="checkbox" class="checkbox-item" id="product_flashlight" value="">Flashlight
+                                </div>
+                            </div>
+                            <input type="checkbox" class="checkbox-item" id="product_flashlight" value="">Flashlight
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
     <div class="footer-push"></div>
