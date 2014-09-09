@@ -27,6 +27,8 @@
             <list>
                 <value>shop.online.db.Account</value>
                 <value>shop.online.db.Product</value>
+                <value>shop.online.db.Order</value>
+                <value>shop.online.db.OrderItem</value>
             </list>
         </property>
         <property name="hibernateProperties">

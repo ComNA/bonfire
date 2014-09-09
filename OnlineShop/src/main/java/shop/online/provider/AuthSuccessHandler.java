@@ -24,7 +24,7 @@ public class AuthSuccessHandler extends SavedRequestAwareAuthenticationSuccessHa
                                         Authentication authentication) throws IOException, ServletException {
         Account account = accountService.getAccountByName(new Account(), authentication.getName());
         request.getSession().setAttribute("CURRENT_USER", account);
-        response.sendRedirect("/secured/home");
+        response.sendRedirect("/shop/home");
     }
 
 }

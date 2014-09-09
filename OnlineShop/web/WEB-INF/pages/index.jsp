@@ -117,10 +117,24 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <div class="row">
             <div class="col-lg-3">
                 <div class="home-item">
                     <a href="#" class="links-main">Phone</a>
+=======
+
+        <div class="nav-add-wrap clearfix">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <ul class="nav-add clearfix">
+                        <li class="active nav-add-item"><a class="nav-add-link links-main" href="<c:url value="/shop/phone"/>" >Phone</a>
+                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Tablet</a>
+                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Laptop</a>
+                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Accessories</a>
+
+                    </ul>
+>>>>>>> 5342cf7e4d1cc69c243e2787f2a279b073d2d829
                 </div>
             </div>
             <div class="col-lg-3">

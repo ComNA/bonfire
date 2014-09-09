@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("")
 public class HomeController {
 
-    @RequestMapping(value = "/secured/home", method = RequestMethod.GET)
+    @RequestMapping(value = "/shop/home", method = RequestMethod.GET)
     public String getAccountHome() {
         return "index";
     }
@@ -20,5 +20,4 @@ public class HomeController {
     public String getHome() {
         return "index";
     }
-
 }
