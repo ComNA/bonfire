@@ -68,6 +68,8 @@
 		float:right;
 		margin: 2px 0;
 	}
-
+    .row-popup {
+        padding:0;
+    }
 	
 }

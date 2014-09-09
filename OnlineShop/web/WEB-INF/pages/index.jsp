@@ -34,34 +34,28 @@
 <body>
 <section class="container-fluid">
     <header class="header">
-
         <div class="row">
-            <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+            <div class="col-lg-4">
                 <div class="logo">
                     <a class="logo-img" href="#"><img src="<c:url value="/img/logo_2.png"/>" alt="" title=""/></a>
                 </div>
             </div>
-
         </div>
-
     </header>
-
     <main class="main">
         <div class="row">
-            <div class="corusel-wrap">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12">
+                <div class="nav-main-wrap">
                     <ul class="nav-main clearfix">
                         <li class="active nav-main-item"><a class="nav-main-link" href="#home" data-toggle="tab">Main</a>|
                         <li class="nav-main-item"><a class="nav-main-link"  href="#recommend" data-toggle="tab">Order and delivery</a>|
                         <li class="nav-main-item"><a class="nav-main-link"  href="#companies" data-toggle="tab">Contacts</a>
-
                     </ul>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-9">
                 <div class="corusel-wrap">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -101,26 +95,47 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="nav-add-wrap clearfix">
-            <div class="row">
-                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                    <ul class="nav-add clearfix">
-                        <li class="active nav-add-item"><a class="nav-add-link links-main" href="phone.html" >Phone</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Tablet</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Laptop</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Accessories</a>
-
-                    </ul>
-                </div>
-                <div class="col-lg-2">
-                    <div class="nav-add-cart-wrap" >
-                        <ul class="nav-add clearfix">
-                            <li class="nav-add-item"><a class="nav-add-link links-main" href="#">Cart<span class="badge-menu">(53)</span></a>
-
-                        </ul>
+            <div class="col-lg-3">
+                <div class="home-contacts-wrap">
+                    <div class="home-contacts">
+                       <a href="#" class="links-main header-main">Contact information</a>
+                       <ul class="contact-list">
+                           <li>+375-29-678-88-88
+                           <li>+375-29-591-77-77
+                           <li>+375-29-678-88-88
+                       </ul>
                     </div>
+                    <div class="contacts-time-work-wrap">
+                        <div class="contacts-time-work">
+                            <h6 class="header-main">Operating time</h6>
+                            <div class="time-work-wrap">
+                                <h2 class="home-time">9:00 - 21:00</h2>
+                                <h3 class="p-main">Seven days a week</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="home-item">
+                    <a href="#" class="links-main">Phone</a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="home-item">
+                    <a href="#" class="links-main">Tablet</a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="home-item">
+                    <a href="#" class="links-main">Laptop</a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="home-item">
+                    <a href="#" class="links-main">Accessories</a>
                 </div>
             </div>
         </div>
@@ -129,7 +144,6 @@
             <button class="button btn-sign" data-toggle="modal" data-target="#myModal">
                 Add product
             </button>
-
             <!-- Modal -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -139,49 +153,70 @@
                             <h4 class="modal-title" id="myModalLabel">New Phone</h4>
                         </div>
                         <div class="modal-body">
-                            <div class="row">
-                                <label for="product_name" class="col-lg-5 registr-label">Name of product</label>
-                                <div class="col-lg-7 col-md-5 col-sm-5 col-xs-5">
-                                    <input type="text" class="input-common" id="product_name" value="" placeholder="Enter name of product" autofocus required>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <label for="product_price" class="col-lg-5 registr-label">Price of product</label>
-                                <div class="col-lg-7 col-md-5 col-sm-5 col-xs-5">
-                                    <input type="text" class="input-common" id="product_price" value="" placeholder="Enter price of product" required>
-                                </div>
-                            <div>
                             <div class="row row-popup">
-                                <label for="product_memory" class="col-lg-6 registr-label">Memory of product</label>
-                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
-                                    <input type="text" class="input-common" id="product_memory" value="" placeholder="Enter memory of product" required>
+                                <div class="registr-item clearfix">
+                                    <label for="product_name" class="col-lg-5 registr-label">Name of product</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="input-common" id="product_name" value="" placeholder="Enter name of product" autofocus required>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row row-padding">
-                                <label for="product_descr" class="col-lg-6 registr-label">Description of product</label>
-                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
-                                    <input type="text" class="input-common" id="product_descr" value="" placeholder="Enter description of product" required>
+                            <div class="row row-popup">
+                                <div class="registr-item clearfix">
+                                    <label for="product_price" class="col-lg-5 registr-label">Price of product</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="input-common" id="product_price" value="" placeholder="Enter price of product" required>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <label for="product_sim" class="col-lg-6 registr-label">Amount of sim</label>
-                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
-                                    <input type="text" class="input-common" id="product_sim" value="" placeholder="Enter sim's count of product" required>
+                            <div class="row row-popup">
+                                <div class="registr-item clearfix">
+                                    <label for="product_memory" class="col-lg-5 registr-label">Memory of product</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="input-common" id="product_memory" value="" placeholder="Enter memory of product" required>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <label for="product_ts" class="col-lg-6 registr-label">Amount of sim</label>
-                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
-                                    <input type="checkbox" class="checkbox-item" id="product_ts" value="">Touchscreen
+                            <div class="row row-popup">
+                                <div class="registr-item clearfix">
+                                    <label for="product_descr" class="col-lg-5 registr-label">Description of product</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="input-common" id="product_descr" value="" placeholder="Enter description of product" required>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <label for="product_flashlight" class="col-lg-6 registr-label">Amount of sim</label>
-                                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
-                                    <input type="checkbox" class="checkbox-item" id="product_flashlight" value="">Flashlight
+                            <div class="row row-popup">
+                                <div class="registr-item clearfix">
+                                    <label for="product_sim" class="col-lg-5 registr-label">Amount of sim</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="input-common" id="product_sim" value="" placeholder="Enter sim's count of product" required>
+                                    </div>
                                 </div>
                             </div>
-                            <input type="checkbox" class="checkbox-item" id="product_flashlight" value="">Flashlight
+                            <div class="row row-popup">
+                                <div class="checkbox-item">
+                                    <label for="product_ts" class="col-lg-5 checkbox-label">Touchscreen</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="checkbox" id="product_ts" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-popup">
+                                <div class="checkbox-item">
+                                    <label for="product_ts" class="col-lg-5 checkbox-label">Flashlight</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="checkbox" class="checkbox-item" id="product_flashlight" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-popup clearfix">
+                                <div class="checkbox-item">
+                                    <label for="product_ts" class="col-lg-5 checkbox-label">Nfc</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="checkbox" class="checkbox-item" id="product_flashlight" value="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -191,7 +226,6 @@
                 </div>
             </div>
         </div>
-
     </main>
     <div class="footer-push"></div>
 </section>
@@ -215,7 +249,6 @@
                         <li class="article-footer-list-item"><a class="footer-link" href="#">Mobiles</a>
                         <li class="article-footer-list-item"><a class="footer-link" href="#">Tablets</a>
                         <li class="article-footer-list-item"><a class="footer-link" href="#">Laptops</a>
-
                     </ul>
                     <ul class="article-footer-list">
                         <li class="article-footer-list-item"><a class="footer-link" href="#">Accessories</a>
@@ -232,7 +265,6 @@
             <div class="col-lg-3 col-md-2 col-sm-4">
                 <p class="copyright-text">&#169; 2014 Bonfire </p>
             </div>
-
         </div>
     </div>
 </footer>

@@ -21,8 +21,9 @@ body {
     padding:0;
 }
 
-h4, h5, h6,p,ul,li{
+h4, h5, h6,p,ul,li,h2,h3{
     margin:0;
+    font-size: 14px;
 }
 .p-main{
     font-size:14px;
@@ -122,9 +123,7 @@ h4, h5, h6,p,ul,li{
     padding:0 100px 0 100px;
 }
 
-.row-popup {
-    padding:0;
-}
+
 
 @media (min-width: 1200px) {
     .container {
@@ -288,9 +287,8 @@ h4, h5, h6,p,ul,li{
 .nav-main-item.active .nav-main-link,
 .nav-main-item.active .nav-main-link:hover,
 .nav-main-item.active .nav-main-link:focus {
-    color: #7d7253;
+    color: #f95729;
     cursor: default;
-    /*background: linear-gradient(to bottom, #fc8200, #fa5e00);*/
 
 }
 
@@ -299,13 +297,12 @@ h4, h5, h6,p,ul,li{
 
 .nav-main-link:hover{
     text-decoration: none;
-
 }
 
 .nav-main-link{
     color: #7d7253;
     text-decoration: none;
-
+    font-weight: bolder;
     font-size: 14px;
     position: relative;
     display: inline-block;
@@ -921,7 +918,7 @@ h4, h5, h6,p,ul,li{
     border-bottom-left-radius: 8px;
 }
 
-.link{
+.links-main{
     font-size:14px;
     color:#7d7253;
     text-decoration: none;
@@ -1063,7 +1060,7 @@ h4, h5, h6,p,ul,li{
 }
 
 .corusel-wrap{
-    padding:5px 0;
+    padding:0 10px 0 0;
 }
 
 .widgets-list-img{
@@ -1187,6 +1184,8 @@ h4, h5, h6,p,ul,li{
     padding:0;
 }
 .checkbox-label{
+    text-align: right;
+    padding: 7px 10px;
     display: inline;
     margin-bottom: 0;
     font-weight: normal;
@@ -1242,3 +1241,47 @@ h4, h5, h6,p,ul,li{
     font-weight: normal;
 }
 
+.home-contacts-wrap{
+    border: 1px solid #e2e2e2;
+    background: #fafafa;
+    padding: 10px;
+}
+
+.nav-main-wrap{
+    padding: 0 0 10px 0;
+}
+
+.header-main{
+    color: #f95729;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.home-time{
+    font-size: 18px;
+    padding: 0 0 10px 0;
+}
+
+.time-work-wrap{
+    text-align: center;
+}
+
+.home-contacts{
+    border-bottom: 1px dotted #e2e2e2;
+    padding-bottom: 20px;
+}
+
+.time-work-wrap{
+    padding: 10px 0;
+}
+
+.contacts-time-work-wrap{
+    padding-top: 20px;
+    padding-bottom: 74px;
+}
+
+.home-item{
+    border: 1px solid #e2e2e2;
+    background: #fafafa;
+    padding: 10px;
+}
