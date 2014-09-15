@@ -1,11 +1,12 @@
 package shop.online.db;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Entity
 @Table(name = "account")
-public class Account {
+public class Account implements Serializable {
 
     @Id
     @Column(name = "account_id")

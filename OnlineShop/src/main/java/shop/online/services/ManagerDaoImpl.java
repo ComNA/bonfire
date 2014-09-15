@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hibernate.criterion.Restrictions.like;
 
 /**
@@ -13,7 +17,7 @@ import static org.hibernate.criterion.Restrictions.like;
  */
 @Repository("managerDAO")
 @Transactional
-public class ManagerDaoImpl<T> implements IManagerDao<T> {
+public class ManagerDaoImpl<T extends Serializable> implements IManagerDao<T> {
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -51,4 +55,26 @@ public class ManagerDaoImpl<T> implements IManagerDao<T> {
                 .createCriteria(t.getClass()).add(like("username", username));
         return (T) criteria.uniqueResult();
     }
+
+    @Override
+    public List<T> getPhoneList(Class<T> t) {
+        Criteria criteria = getSessionFactory().getCurrentSession()
+                .createCriteria(t).add(like("category", "phone"));
+        return criteria.list();
+    }
+
+    @Override
+    public List<T> getLaptopList(Class<T> t) {
+        Criteria criteria = getSessionFactory().getCurrentSession()
+                .createCriteria(t).add(like("category", "laptop"));
+        return criteria.list();
+    }
+
+    @Override
+    public List<T> getTabletList(Class<T> t) {
+        Criteria criteria = getSessionFactory().getCurrentSession()
+                .createCriteria(t).add(like("category", "tablet"));
+        return criteria.list();
+    }
+
 }
