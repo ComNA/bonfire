@@ -1,6 +1,7 @@
 package shop.online.db;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.text.DecimalFormat;
 import java.util.List;
 
@@ -10,11 +11,10 @@ import java.util.List;
 
 @Entity
 @Table(name = "product")
-public class Product {
+public class Product implements Serializable {
 
     @Id
     @Column(name = "product_id")
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     public int getId() {
@@ -48,13 +48,13 @@ public class Product {
     }
 
     @Column(name = "price")
-    private DecimalFormat price;
+    private double price;
 
-    public DecimalFormat getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(DecimalFormat price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
