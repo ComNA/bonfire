@@ -41,6 +41,7 @@
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
           <element id="library" level="project" name="Maven: javax.mail:mail:1.4.7" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="OnlineShop/web/Web" />

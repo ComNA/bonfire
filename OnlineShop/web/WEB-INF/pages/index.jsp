@@ -14,24 +14,26 @@
     <title>Bonfire</title>
 
     <!-- Bootstrap -->
-    <link href="<c:url value="/css/bootstrap.css"/>" rel="stylesheet">
+    <link href="<c:url value="/css/bootstrap.min.css"/>" rel="stylesheet">
     <link href="<c:url value="/css/style.css"/>" rel="stylesheet">
-    <link href="css/media-queries.css" rel="stylesheet">
+    <link href="<c:url value="/css/media-queries.css"/>" rel="stylesheet">
+
+</head>
+<body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="<c:url value="/js/jquery.min.js"/>"></script>
+    <script src="<c:url value="/js/bootstrap.js"/>"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
 
+
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
-<body>
+
 <section class="container-fluid">
     <header class="header">
         <div class="row">
@@ -117,24 +119,11 @@
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
+
         <div class="row">
             <div class="col-lg-3">
                 <div class="home-item">
                     <a href="#" class="links-main">Phone</a>
-=======
-
-        <div class="nav-add-wrap clearfix">
-            <div class="row">
-                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-                    <ul class="nav-add clearfix">
-                        <li class="active nav-add-item"><a class="nav-add-link links-main" href="<c:url value="/shop/phone"/>" >Phone</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Tablet</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Laptop</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Accessories</a>
-
-                    </ul>
->>>>>>> 5342cf7e4d1cc69c243e2787f2a279b073d2d829
                 </div>
             </div>
             <div class="col-lg-3">
@@ -185,6 +174,14 @@
                             </div>
                             <div class="row row-popup">
                                 <div class="registr-item clearfix">
+                                    <label for="product_price" class="col-lg-5 registr-label">Category of product</label>
+                                    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="input-common" id="product_category" value="" placeholder="Enter price of product" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-popup">
+                                <div class="registr-item clearfix">
                                     <label for="product_memory" class="col-lg-5 registr-label">Memory of product</label>
                                     <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
                                         <input type="text" class="input-common" id="product_memory" value="" placeholder="Enter memory of product" required>
@@ -199,7 +196,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row row-popup">
+                            <!--<div class="row row-popup">
                                 <div class="registr-item clearfix">
                                     <label for="product_sim" class="col-lg-5 registr-label">Amount of sim</label>
                                     <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
@@ -230,11 +227,11 @@
                                         <input type="checkbox" class="checkbox-item" id="product_flashlight" value="">
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-primary" onclick="saveChanges()">Save changes</button>
                         </div>
                     </div>
                 </div>
@@ -243,6 +240,11 @@
     </main>
     <div class="footer-push"></div>
 </section>
+    <script>
+        <%--window.testJson = ${jsonAnswer};--%>
+    </script>
+    <script src="<c:url value="/js/r-script.js"/>"></script>
+    <script src="<c:url value="/js/home.js"/>"></script>
 <footer class="footer">
     <div class="footer_inner">
         <div class="row">

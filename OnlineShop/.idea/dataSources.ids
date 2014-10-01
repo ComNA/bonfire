@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="MySQL - online_shop@localhost" uuid="bbf532e8-21fe-4357-85d6-5f41c618c483">
+    <database-info product="MySQL" version="5.6.20" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="online_shop"/>
+    <table name="account" schema="" catalog="online_shop" type="TABLE">
+      <column name="account_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="subscription" sqlType="TINYINT" length="3" precision="0" nullable="true" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="account_id"/>
+      <exported-key name="FK_order_account" table="order" schema="" catalog="online_shop" columns="account_id"/>
+      <index name="email" unique="true" columns="email"/>
+      <index name="username" unique="true" columns="username"/>
+    </table>
+    <table name="order" schema="" catalog="online_shop" type="TABLE">
+      <column name="order_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="date" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91"/>
+      <column name="status" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="account_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <primary-key name="PRIMARY" columns="order_id"/>
+      <foreign-key name="FK_order_account" columns="account_id" ref-table="account" ref-schema="" ref-catalog="online_shop" ref-columns="account_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK_order_item_order" table="order_item" schema="" catalog="online_shop" columns="order_id"/>
+    </table>
+    <table name="order_item" schema="" catalog="online_shop" type="TABLE">
+      <column name="order_item_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="order_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="product_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="quantity" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="order_item_id"/>
+      <foreign-key name="FK_order_item_order" columns="order_id" ref-table="order" ref-schema="" ref-catalog="online_shop" ref-columns="order_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_order_item_product" columns="product_id" ref-table="product" ref-schema="" ref-catalog="online_shop" ref-columns="product_id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="product" schema="" catalog="online_shop" type="TABLE">
+      <column name="product_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12" def="JzAn"/>
+      <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="price" sqlType="DOUBLE" length="22" precision="0" nullable="true" jdbcType="8"/>
+      <column name="image" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="memory" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="rating" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7"/>
+      <column name="flashlight" sqlType="TINYINT" length="3" precision="0" nullable="true" jdbcType="-6"/>
+      <column name="nfc" sqlType="TINYINT" length="3" precision="0" nullable="true" jdbcType="-6"/>
+      <column name="touchscreen" sqlType="TINYINT" length="3" precision="0" nullable="true" jdbcType="-6"/>
+      <column name="sim_cards" sqlType="TINYINT" length="3" precision="0" nullable="true" jdbcType="-6"/>
+      <column name="category" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="product_id"/>
+      <exported-key name="FK_order_item_product" table="order_item" schema="" catalog="online_shop" columns="product_id"/>
+      <index name="name" unique="true" columns="name"/>
+    </table>
+  </data-source>
+</component>

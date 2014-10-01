@@ -1,6 +1,10 @@
 /**
  * Created by ahrytsuk on 24.08.2014.
  */
+
+
+//var obj = JSON.parse(json);
+
 function CountLogin(item){
     var item_view = 'login_view'; // var for displaying count of elements
     var item_correct = 'login_correct'; // var for displaying message about error
@@ -113,3 +117,38 @@ function checkAll(){
         document.getElementById('submit_id').disabled = true;
     }
 }
+
+
+var obj = window.testJson;
+
+
+function displayPhoneProduct(){
+//    var json = window.testJson;
+     //JSON.parse(json);
+    //alert(json);
+    var list = document.getElementById('list_id');
+
+    for (var i=0;i<obj.length;i++){
+        var newItem = document.createElement('li'); //create li
+        newItem.className = 'widgets-list-item'; // assign class
+        list.appendChild(newItem); //move li under ul
+        var item = obj[i];
+        for (var key in item){
+            if (key=='image'){
+                var prImage = document.createElement('img');
+                prImage.setAttribute("src",item[key]);
+                newItem.appendChild(prImage);
+            }
+            else{
+                var nameDiv = document.createElement('div'); // crete div1
+                nameDiv.innerHTML = item[key];
+                newItem.appendChild(nameDiv); // move div under li
+            }
+        }
+    }
+    return obj;
+}
+
+
+
+displayPhoneProduct();

@@ -10,27 +10,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Phone</title>
+    <title>Bonfire</title>
 
     <!-- Bootstrap -->
-    <link href="<c:url value="/css/bootstrap.css"/>" rel="stylesheet">
+    <link href="<c:url value="/css/bootstrap.min.css"/>" rel="stylesheet">
     <link href="<c:url value="/css/style.css"/>" rel="stylesheet">
     <link href="<c:url value="/css/media-queries.css"/>" rel="stylesheet">
+
+</head>
+<body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="<c:url value="/js/jquery.min.js"/>"></script>
+    <script src="<c:url value="/js/bootstrap.js"/>"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
 
+
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
-<body>
+
+
 <section class="container-fluid">
     <header class="header">
 
@@ -40,9 +43,7 @@
                     <a class="logo-img" href="#"><img src="<c:url value="/img/logo_2.png"/>" alt="" title=""/></a>
                 </div>
             </div>
-
         </div>
-
     </header>
 
     <main class="main">
@@ -83,8 +84,7 @@
         <div class="row">
             <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                 <div class="widgets-wrap">
-
-                    <ul class="widgets-list">
+                    <ul id = 'list_id' class="widgets-list">
                         <li class="widgets-list-item">
                             <div class="widgets-list-item-inner">
                                 <img class="widgets-list-img" src="<c:url value="/img/0410.jpg"/>" alt="" title=""/>
@@ -95,61 +95,7 @@
                                 <button type="submit" class="widget-button btn btn-default">ADD to Cart</button>
                                 <button type="submit" class="widget-button btn btn-default">Save</button>
                             </div>
-
-                        <li class="widgets-list-item">
-                            <div class="widgets-list-item-inner">
-                                <img class="widgets-list-img" src="<c:url value="/img/sums.jpg"/>" alt="" title=""/>
-                                <a class="links-main" href="#">Lumia 920</a>
-                                <p class="p-main">$500</p>
-                            </div>
-                            <div class="widgets-list-item-buttons-wrap btn-group clearfix">
-                                <button type="submit" class="widget-button btn btn-default">ADD to Cart</button>
-                                <button type="submit" class="widget-button btn btn-default">Save</button>
-                            </div>
-
-                        <li class="widgets-list-item">
-                            <div class="widgets-list-item-inner">
-                                <img class="widgets-list-img" src="<c:url value="/img/iPhone.jpg"/>" alt="" title=""/>
-                                <a class="links-main" href="#">Lumia 920</a>
-                                <p class="p-main">$500</p>
-                            </div>
-                            <div class="widgets-list-item-buttons-wrap btn-group clearfix">
-                                <button type="submit" class="widget-button btn btn-default">ADD to Cart</button>
-                                <button type="submit" class="widget-button btn btn-default">Save</button>
-                            </div>
-
-                        <li class="widgets-list-item">
-                            <div class="widgets-list-item-inner">
-                                <img class="widgets-list-img" src="<c:url value="/img/0410.jpg"/>"alt="" title=""/>
-                                <a class="links-main" href="#">Lumia 920</a>
-                                <p class="p-main">$500</p>
-                            </div>
-                            <div class="widgets-list-item-buttons-wrap btn-group clearfix">
-                                <button type="submit" class="widget-button btn btn-default">ADD to Cart</button>
-                                <button type="submit" class="widget-button btn btn-default">Save</button>
-                            </div>
-                        <li class="widgets-list-item">
-                            <div class="widgets-list-item-inner">
-                                <img class="widgets-list-img" src="<c:url value="/img/sums.jpg"/>" alt="" title=""/>
-                                <a class="links-main" href="#" name="product-name">Lumia 920</a>
-                                <label><p class="p-main">$500</p></label>
-                            </div>
-                            <div class="widgets-list-item-buttons-wrap btn-group clearfix">
-                                <button type="submit" class="widget-button btn btn-default">ADD to Cart</button>
-                                <button type="submit" class="widget-button btn btn-default">Save</button>
-                            </div>
-
-                        <li class="widgets-list-item">
-                            <div class="widgets-list-item-inner">
-                                <img class="widgets-list-img" src="<c:url value="/img/iPhone.jpg"/>" alt="" title=""/>
-                                <a class="links-main" href="#">Lumia 920</a>
-                                <p class="p-main">$500</p>
-                            </div>
-                            <div class="widgets-list-item-buttons-wrap btn-group clearfix">
-                                <button type="submit" class="widget-button btn btn-default">ADD to Cart</button>
-                                <button type="submit" class="widget-button btn btn-default">Save</button>
-                            </div>
-
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -193,6 +139,10 @@
     </main>
     <div class="footer-push"></div>
 </section>
+    <script>
+        window.testJson = ${jsonAnswer};
+    </script>
+    <script src="<c:url value="/js/r-script.js"/>"></script>
 <footer class="footer">
     <div class="footer_inner">
         <div class="row">
