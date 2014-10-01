@@ -132,19 +132,45 @@ function displayPhoneProduct(){
         var newItem = document.createElement('li'); //create li
         newItem.className = 'widgets-list-item'; // assign class
         list.appendChild(newItem); //move li under ul
+        var nameDiv = document.createElement('div'); // crete div1
+        nameDiv.className = 'widgets-list-item-inner';
+        newItem.appendChild(nameDiv); // move div under li
         var item = obj[i];
         for (var key in item){
             if (key=='image'){
                 var prImage = document.createElement('img');
+                prImage.className = 'phone-image';
                 prImage.setAttribute("src",item[key]);
-                newItem.appendChild(prImage);
+                nameDiv.insertBefore(prImage,prName);
+
             }
-            else{
-                var nameDiv = document.createElement('div'); // crete div1
-                nameDiv.innerHTML = item[key];
-                newItem.appendChild(nameDiv); // move div under li
+            else if (key=='name'){
+                var prName = document.createElement('a');
+                prName.className = 'links-main';
+                prName.innerHTML = item[key];
+                nameDiv.appendChild(prName);
             }
+            else if (key=='description'){
+                var prDescr = document.createElement('p');
+                prDescr.className ='p-main';
+                prDescr.innerHTML = item[key];
+                nameDiv.appendChild(prDescr);
+            }
+
         }
+        var prButtonWrap = document.createElement('div');
+        prButtonWrap.className = 'widgets-list-item-buttons-wrap btn-group clearfix';
+        newItem.appendChild(prButtonWrap);
+
+        var prButtonAdd = document.createElement('button');
+        prButtonAdd.className = 'widget-button btn btn-default';
+        prButtonAdd.innerHTML = 'Add to cart';
+        prButtonWrap.appendChild(prButtonAdd);
+
+        var prButtonCompare = document.createElement('button');
+        prButtonCompare.className = 'widget-button btn btn-default';
+        prButtonCompare.innerHTML = 'Compare';
+        prButtonWrap.appendChild(prButtonCompare);
     }
     return obj;
 }

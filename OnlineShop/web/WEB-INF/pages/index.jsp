@@ -47,11 +47,11 @@
     <main class="main">
         <div class="row">
             <div class="col-lg-12">
-                <div class="nav-main-wrap">
+                <div class="nav-main-wrap clearfix">
                     <ul class="nav-main clearfix">
-                        <li class="active nav-main-item"><a class="nav-main-link" href="#home" data-toggle="tab">Main</a>|
-                        <li class="nav-main-item"><a class="nav-main-link"  href="#recommend" data-toggle="tab">Order and delivery</a>|
-                        <li class="nav-main-item"><a class="nav-main-link"  href="#companies" data-toggle="tab">Contacts</a>
+                        <li class="active nav-main-item"><a class="nav-main-link" href="home">Main</a>|
+                        <li class="nav-main-item"><a class="nav-main-link"  href="#">Order and delivery</a>|
+                        <li class="nav-main-item"><a class="nav-main-link"  href="#">Contacts</a>
                     </ul>
                 </div>
             </div>
@@ -123,7 +123,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="home-item">
-                    <a href="#" class="links-main">Phone</a>
+                    <a href="phone" class="links-main">Phone</a>
                 </div>
             </div>
             <div class="col-lg-3">

@@ -288,7 +288,7 @@ h4, h5, h6,p,ul,li,h2,h3{
 .nav-main-item.active .nav-main-link:hover,
 .nav-main-item.active .nav-main-link:focus {
     color: #f95729;
-    cursor: default;
+    cursor: pointer;
 
 }
 
@@ -923,6 +923,7 @@ h4, h5, h6,p,ul,li,h2,h3{
     color:#7d7253;
     text-decoration: none;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
 }
 
 .links-main:hover{
@@ -1284,4 +1285,8 @@ h4, h5, h6,p,ul,li,h2,h3{
     border: 1px solid #e2e2e2;
     background: #fafafa;
     padding: 10px;
+}
+
+.phone-image{
+    display: block;
 }
