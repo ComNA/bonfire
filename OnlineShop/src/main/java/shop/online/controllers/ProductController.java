@@ -16,4 +16,9 @@ public class ProductController {
         return "product";
     }
 
+    @RequestMapping(value = "/shop/product/review", method = RequestMethod.GET)
+    public String getProductReview() {
+        return "productReview";
+    }
+
 }
