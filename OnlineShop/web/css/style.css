@@ -1290,3 +1290,35 @@ h4, h5, h6,p,ul,li,h2,h3{
 .phone-image{
     display: block;
 }
+
+.product-view{
+    float:left;
+}
+
+.product-descr{
+    overflow: hidden;
+}
+
+.pr-title{
+    color: #f95729;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.pr-price{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.pr-price-wrap{
+    padding:10px 0;
+}
+
+.product-section-wrap{
+    padding:20px;
+}
+
+.pr-options-wrap{
+    width: 45%;
+    padding: 20px 0;
+}
