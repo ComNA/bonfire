@@ -8,7 +8,7 @@ function Product(productName,productPrice,productCategory,productMemory,productD
 
 
 }
-var obj = window.testJson;
+
 
 function saveChanges(){
     //var modal = document.getElementById('myModal');
@@ -20,8 +20,9 @@ function saveChanges(){
 
     var newProduct = new Product(productName,productPrice,productCategory,productMemory,productDescr);
 
-    obj.push(newProduct);
+    testJson.push(newProduct);
+    displayAddedProduct(newProduct);
 
-    return obj; //window.testJson
+    return window.testJson; //window.testJson
 
 }
