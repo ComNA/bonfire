@@ -23,7 +23,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="<c:url value="/js/jquery.min.js"/>"></script>
     <script src="<c:url value="/js/bootstrap.js"/>"></script>
-    <script src="<c:url value="/js/r-script.js"/>"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

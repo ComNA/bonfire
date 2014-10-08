@@ -69,19 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="r-script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/r-script.js">
+      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="30" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1904">
+            <state line="16" column="30" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/home.js">
+      <file leaf-file-name="r-script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/r-script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="864" selection-end="864" vertical-scroll-proportion="1.0053763" vertical-offset="0" max-vertical-offset="561">
+            <state line="85" column="5" selection-start="3266" selection-end="3266" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="2431">
               <folding />
             </state>
           </provider>
@@ -90,25 +90,16 @@
       <file leaf-file-name="phone.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/phone.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="42" selection-start="13630" selection-end="13630" vertical-scroll-proportion="-81.333336" vertical-offset="51" max-vertical-offset="4794">
+            <state line="97" column="54" selection-start="4171" selection-end="4186" vertical-scroll-proportion="0.0" vertical-offset="1531" max-vertical-offset="4811">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/product.jsp">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="74" selection-start="390" selection-end="811" vertical-scroll-proportion="-0.65384614" vertical-offset="272" max-vertical-offset="2584">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productReview.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/productReview.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="47" selection-start="3843" selection-end="3843" vertical-scroll-proportion="-22.538462" vertical-offset="944" max-vertical-offset="2890">
+            <state line="476" column="13" selection-start="8031" selection-end="8031" vertical-scroll-proportion="0.0" vertical-offset="7842" max-vertical-offset="22576">
               <folding />
             </state>
           </provider>
@@ -117,7 +108,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="18" selection-start="6342" selection-end="6342" vertical-scroll-proportion="4.509804" vertical-offset="2474" max-vertical-offset="3400">
+            <state line="151" column="0" selection-start="6857" selection-end="6857" vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="3400">
               <folding />
             </state>
           </provider>
@@ -126,10 +117,8 @@
       <file leaf-file-name="registration.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/registration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="1" selection-start="5173" selection-end="5173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
-              <folding>
-                <element signature="n#!!doc;n#CountLogin#0" expanded="false" />
-              </folding>
+            <state line="114" column="1" selection-start="5173" selection-end="5173" vertical-scroll-proportion="0.0" vertical-offset="1938" max-vertical-offset="2057">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,17 +126,10 @@
       <file leaf-file-name="registration.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/registration.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="26.807692" vertical-offset="1122" max-vertical-offset="2856">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/cart.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="12" selection-start="4129" selection-end="4129" vertical-scroll-proportion="-0.65384614" vertical-offset="1649" max-vertical-offset="2601">
-              <folding />
+            <state line="25" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2856">
+              <folding>
+                <marker date="1412599518982" expanded="true" signature="1451:1653" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +137,7 @@
       <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="32" selection-start="1014" selection-end="1014" vertical-scroll-proportion="-5.8846154" vertical-offset="255" max-vertical-offset="2091">
+            <state line="25" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -175,18 +157,18 @@
         <option value="$PROJECT_DIR$/web/css/media-queries.css" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/product.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/ProductView.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/productReview.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pages/cart.jsp" />
-        <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/js/login.js" />
         <option value="$PROJECT_DIR$/web/js/registration.js" />
-        <option value="$PROJECT_DIR$/web/js/r-script.js" />
         <option value="$PROJECT_DIR$/web/js/home.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/registration.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/cart.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/phone.jsp" />
+        <option value="$PROJECT_DIR$/web/js/r-script.js" />
       </list>
     </option>
   </component>
@@ -306,7 +288,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -322,6 +304,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -393,24 +376,6 @@
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -432,7 +397,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,12 +648,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -707,6 +665,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.411" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -927,16 +891,19 @@
       <workItem from="1412535606502" duration="2054000" />
       <workItem from="1412538135969" duration="448000" />
       <workItem from="1412538991284" duration="3690000" />
-      <workItem from="1412579569463" duration="7419000" />
+      <workItem from="1412579569463" duration="10938000" />
+      <workItem from="1412669949207" duration="10471000" />
+      <workItem from="1412706439612" duration="3317000" />
+      <workItem from="1412770612158" duration="181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134841000" />
+    <option name="totallyTimeSpent" value="152329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -959,8 +926,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18960468" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21888727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38390094" sideWeight="0.8653001" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30959752" sideWeight="0.8653001" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -973,14 +940,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0863836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.13469985" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29411766" sideWeight="0.13469985" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21888727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.8653001" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30959752" sideWeight="0.8653001" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1265,12 +1232,12 @@
             <node x="" y="">javax.mail:mail:jar:1.4.7</node>
             <node x="" y="">org.springframework:spring-tx:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
             <node x="" y="">org.springframework:spring-orm:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final/com.mchange:c3p0:jar:0.9.2.1/com.mchange:mchange-commons-java:jar:0.2.3.4</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.6.RELEASE</node>
             <node x="" y="">org.springframework.security:spring-security-core:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.6.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.6.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final/com.mchange:c3p0:jar:0.9.2.1/com.mchange:mchange-commons-java:jar:0.2.3.4</node>
             <node x="" y="">org.springframework.security:spring-security-config:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.8.Final</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.8.Final</node>
             <node x="" y="">org.springframework.security:spring-security-core:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.6.RELEASE</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:4.0.0.RELEASE</node>
             <node x="" y="">mysql:mysql-connector-java:jar:5.1.29</node>
@@ -1298,33 +1265,33 @@
             <node x="" y="">javax.mail:mail:jar:1.4.7/javax.activation:activation:jar:1.1</node>
             <node x="" y="">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
             <node x="" y="">commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
             <node x="" y="">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
             <node x="" y="">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.8.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
             <node x="" y="">javax.servlet:jstl:jar:1.2</node>
             <node x="" y="">org.springframework.security:spring-security-config:jar:3.2.0.RELEASE/org.springframework.security:spring-security-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.6.RELEASE</node>
             <node x="" y="">org.springframework:spring-orm:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.6.RELEASE</node>
             <node x="" y="">org.springframework.security:spring-security-config:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.6.RELEASE</node>
             <node x="" y="">org.springframework:spring-web:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.springframework:spring-tx:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.8.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final</node>
-            <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
-            <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final</node>
-            <node x="" y="">org.springframework:spring-orm:jar:4.0.0.RELEASE/org.springframework:spring-jdbc:jar:4.0.0.RELEASE</node>
             <node x="" y="">org.springframework:spring-orm:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.0.0.RELEASE/org.springframework:spring-jdbc:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final</node>
+            <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
             <node x="" y="">org.springframework.security:spring-security-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.8.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE/org.springframework.security:spring-security-core:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:3.2.0.RELEASE/org.springframework.security:spring-security-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.8.Final/dom4j:dom4j:jar:1.6.1</node>
             <node x="" y="">org.hibernate:hibernate-core:jar:4.2.8.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.8.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
-            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.8.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.6.RELEASE</node>
             <node x="" y="">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-core:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.6.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.8.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.2.8.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
             <node x="" y="">org.springframework.security:spring-security-config:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final/org.hibernate:hibernate-core:jar:4.2.8.Final</node>
             <node x="" y="">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
@@ -1332,18 +1299,18 @@
             <node x="" y="">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.8.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final</node>
-            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
-            <node x="" y="">org.springframework:spring-tx:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
             <node x="" y="">org.hibernate:hibernate-entitymanager:jar:4.2.8.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final</node>
             <node x="" y="">org.springframework:spring-web:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
             <node x="" y="">org.springframework.security:spring-security-config:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.6.RELEASE</node>
-            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
             <node x="" y="">org.springframework:spring-core:jar:4.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
             <node x="" y="">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE</node>
             <node x="" y="">org.hibernate:hibernate-c3p0:jar:4.2.8.Final/com.mchange:c3p0:jar:0.9.2.1</node>
-            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
             <node x="" y="">org.springframework:spring-orm:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
           </nodes>
           <notes />
           <edges />
@@ -1355,81 +1322,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1325" column="0" selection-start="21832" selection-end="21832" vertical-scroll-proportion="0.0" vertical-offset="22296" max-vertical-offset="22627">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/registration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="1" selection-start="5173" selection-end="5173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
-          <folding>
-            <element signature="n#!!doc;n#CountLogin#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="1014" selection-end="1014" vertical-scroll-proportion="-5.8846154" vertical-offset="255" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/r-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="30" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/productReview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="47" selection-start="3843" selection-end="3843" vertical-scroll-proportion="-22.538462" vertical-offset="944" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="26.807692" vertical-offset="1122" max-vertical-offset="2856">
-          <folding />
+        <state line="25" column="41" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2856">
+          <folding>
+            <marker date="1412599518982" expanded="true" signature="1451:1653" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="12" selection-start="4129" selection-end="4129" vertical-scroll-proportion="-0.65384614" vertical-offset="1649" max-vertical-offset="2601">
+        <state line="47" column="0" selection-start="1928" selection-end="1928" vertical-scroll-proportion="-11.115385" vertical-offset="510" max-vertical-offset="2584">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/productReview.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="18" selection-start="6342" selection-end="6342" vertical-scroll-proportion="4.509804" vertical-offset="2474" max-vertical-offset="3400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/phone.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="42" selection-start="13630" selection-end="13630" vertical-scroll-proportion="-81.333336" vertical-offset="51" max-vertical-offset="4794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="74" selection-start="390" selection-end="811" vertical-scroll-proportion="-0.65384614" vertical-offset="272" max-vertical-offset="2584">
+        <state line="90" column="47" selection-start="3843" selection-end="3843" vertical-scroll-proportion="1.4873097" vertical-offset="944" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="864" selection-end="864" vertical-scroll-proportion="1.0053763" vertical-offset="0" max-vertical-offset="561">
+        <state line="16" column="30" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="39" selection-start="1055" selection-end="1059" vertical-scroll-proportion="0.024169184" vertical-offset="400" max-vertical-offset="2584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="0" selection-start="6857" selection-end="6857" vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="476" column="13" selection-start="8031" selection-end="8031" vertical-scroll-proportion="0.0" vertical-offset="7842" max-vertical-offset="22576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/phone.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="54" selection-start="4171" selection-end="4186" vertical-scroll-proportion="0.0" vertical-offset="1531" max-vertical-offset="4811">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/r-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="5" selection-start="3266" selection-end="3266" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="2431">
           <folding />
         </state>
       </provider>

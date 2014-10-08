@@ -342,7 +342,7 @@ h4, h5, h6,p,ul,li,h2,h3{
 
 .nav-add-wrap{
     background: linear-gradient(to bottom, #f1f1f1, #dadada);
-
+    margin: 0 0 10px 0;
 }
 
 .nav-add-cart-wrap{
@@ -474,7 +474,7 @@ h4, h5, h6,p,ul,li,h2,h3{
 
 .widgets-list-item{
     display:inline-block;
-    padding:10px 5px;
+    padding:0 5px;
     width: 33%;
     vertical-align: top;
 }
@@ -1202,7 +1202,6 @@ h4, h5, h6,p,ul,li,h2,h3{
 }
 .details-wrap{
     border:1px solid #cccccc;
-    margin-top: 10px;
     border-radius:4px;
 }
 

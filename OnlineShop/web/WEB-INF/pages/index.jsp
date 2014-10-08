@@ -149,7 +149,7 @@
     <script>
         <%--window.testJson = ${jsonAnswer};--%>
     </script>
-    <script src="<c:url value="/js/r-script.js"/>"></script>
+
     <script src="<c:url value="/js/home.js"/>"></script>
 <footer class="footer">
     <div class="footer_inner">

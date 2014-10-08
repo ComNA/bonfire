@@ -60,7 +60,8 @@
                 </div>
             </div>
         </div>
-        <div class="nav-add-wrap clearfix">
+        <div class="row">
+            <div class="nav-add-wrap clearfix">
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
                     <ul class="nav-add clearfix">
@@ -81,6 +82,7 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="row">
             <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                 <div class="widgets-wrap">
@@ -90,40 +92,38 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                <form name="details-form" role="form">
-                    <div class="details-wrap">
-                        <h6>Details</h6>
-                        <div class="category-wrap">
-                            <label>Price</label><input class="input-common input-datail" type="text">
-                            <label>till</label><input class="input-common input-datail" type="text">
-                            <span>!</span>
-                        </div>
-                        <div class="category-wrap">
-                            <label>Memory</label><input class="input-common input-datail" type="text">
-                        </div>
-                        <div class="category-wrap">
-                            <label>Rating</label><input class="input-common input-datail" type="text">
-                        </div>
-                        <div class="category-wrap">
-                            <div class="checkbox-item">
-                                <label class="checkbox-label">
-                                    <input class="checkbox-input" type="checkbox" value="">Lantern
-                                </label>
-                            </div>
-                            <div class="checkbox-item">
-                                <label class="checkbox-label">
-                                    <input class="checkbox-input" type="checkbox" value="">NFC
-                                </label>
-                            </div>
-                            <div class="checkbox-item">
-                                <label class="checkbox-label">
-                                    <input class="checkbox-input" type="checkbox" value="">Touch screen
-                                </label>
-                            </div>
-                            <button type="submit" class="button btn-sign">Find</button>
-                        </div>
+                <div class="details-wrap">
+                    <h6>Details</h6>
+                    <div class="category-wrap">
+                        <label>Price</label><input id='pr-price-from' class="input-common input-datail" type="text">
+                        <label>till</label><input id='pr-price-till' class="input-common input-datail" type="text">
+                        <span>!</span>
                     </div>
-                </form>
+                    <div class="category-wrap">
+                        <label>Memory</label><input class="input-common input-datail" type="text">
+                    </div>
+                    <div class="category-wrap">
+                        <label>Rating</label><input class="input-common input-datail" type="text">
+                    </div>
+                    <div class="category-wrap">
+                        <div class="checkbox-item">
+                            <label class="checkbox-label">
+                                <input class="checkbox-input" type="checkbox" value="">Lantern
+                            </label>
+                        </div>
+                        <div class="checkbox-item">
+                            <label class="checkbox-label">
+                                <input class="checkbox-input" type="checkbox" value="">NFC
+                            </label>
+                        </div>
+                        <div class="checkbox-item">
+                            <label class="checkbox-label">
+                                <input class="checkbox-input" type="checkbox" value="">Touch screen
+                            </label>
+                        </div>
+                        <button id='find' >Find</button> <!--class="button btn-sign"-->
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -215,12 +215,13 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" onclick="saveChanges()">Save changes</button>
+                            <button type="button" class="btn btn-primary" onclick="saveChanges()" data-dismiss="modal">Save changes</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
     <div class="footer-push"></div>
 </section>
