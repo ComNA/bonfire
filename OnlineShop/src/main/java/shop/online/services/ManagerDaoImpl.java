@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.hibernate.criterion.Restrictions.like;
@@ -37,8 +36,8 @@ public class ManagerDaoImpl<T extends Serializable> implements IManagerDao<T> {
     }
 
     @Override
-    public T getById(T t, Integer id) {
-        return (T) getSessionFactory().getCurrentSession().get(t.getClass(), id);
+    public T getById(Class<T> t, Integer id) {
+        return (T) getSessionFactory().getCurrentSession().get(t, id);
     }
 
     @Override
@@ -74,6 +73,13 @@ public class ManagerDaoImpl<T extends Serializable> implements IManagerDao<T> {
     public List<T> getTabletList(Class<T> t) {
         Criteria criteria = getSessionFactory().getCurrentSession()
                 .createCriteria(t).add(like("category", "tablet"));
+        return criteria.list();
+    }
+
+    @Override
+    public List<T> getAccessoriesList(Class<T> t) {
+        Criteria criteria = getSessionFactory().getCurrentSession()
+                .createCriteria(t).add(like("category", "accessories"));
         return criteria.list();
     }
 

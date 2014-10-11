@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
@@ -53,7 +54,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <ul class="nav-main clearfix">
                         <li class="active nav-main-item"><a class="nav-main-link" href="<c:url value="/shop/home"/>">Main</a>|
-                        <li class="nav-main-item"><a class="nav-main-link"  href="#recommend">Order and delivery</a>|
+                        <li class="nav-main-item"><a class="nav-main-link"  href="<c:url value="/shop/order/delivery"/>">Order and delivery</a>|
                         <li class="nav-main-item"><a class="nav-main-link"  href="#companies">Contacts</a>
 
                     </ul>
@@ -66,9 +67,9 @@
                 <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
                     <ul class="nav-add clearfix">
                         <li class="active nav-add-item"><a class="nav-add-link links-main" href="<c:url value="/shop/phone"/>">Phone</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#">Tablet</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#">Laptop</a>
-                        <li class="nav-add-item"><a class="nav-add-link links-main" href="#" >Accessories</a>
+                        <li class="nav-add-item"><a class="nav-add-link links-main" href="<c:url value="/shop/tablet"/>">Tablet</a>
+                        <li class="nav-add-item"><a class="nav-add-link links-main" href="<c:url value="/shop/laptop"/>">Laptop</a>
+                        <li class="nav-add-item"><a class="nav-add-link links-main" href="<c:url value="/shop/accessories"/>" >Accessories</a>
 
                     </ul>
                 </div>
@@ -215,7 +216,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" onclick="saveChanges()" data-dismiss="modal">Save changes</button>
+                            <button type="submit" class="btn btn-primary" onclick="saveChanges()" data-dismiss="modal">Save changes</button>
                         </div>
                     </div>
                 </div>
@@ -225,9 +226,9 @@
     </main>
     <div class="footer-push"></div>
 </section>
-    <script>
-        window.testJson = ${jsonAnswer};
-    </script>
+        <script>
+            window.testJson = ${jsonAnswer};
+        </script>
     <script src="<c:url value="/js/r-script.js"/>"></script>
     <script src="<c:url value="/js/home.js"/>"></script>
 <footer class="footer">

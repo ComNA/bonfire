@@ -9,27 +9,26 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import shop.online.db.Product;
 import shop.online.services.ProductService;
 
-import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.util.List;
 
 /**
- * Created by ann on 8/25/14.
+ * Created by ann on 10/11/14.
  */
 @Controller
 @RequestMapping("")
-public class PhoneController {
+public class AccessoriesController {
 
     @Autowired
     ProductService service;
 
-    @RequestMapping(value = "/shop/phone", method = RequestMethod.GET)
-    public String getPhone(ModelMap map) throws IOException {
+    @RequestMapping(value = "/shop/accessories", method = RequestMethod.GET)
+    public String getAccessories(ModelMap map) throws IOException {
         Writer writer = new StringWriter();
         Product product = new Product();
-        List<Product> list = service.getPhoneList(product);
+        List<Product> list = service.getAccessoriesList(product);
         if(list != null) {
             JsonWriter jsonWriter = new JsonWriter(writer);
             jsonWriter.beginArray();
@@ -44,18 +43,9 @@ public class PhoneController {
             jsonWriter.endArray();
             System.out.println(writer.toString());
             map.addAttribute("jsonAnswer",writer.toString());
-            map.addAttribute("product", new Product());
         } else {
             map.addAttribute("jsonAnswer","[]");
         }
-        return "phone";
-    }
-
-    @RequestMapping(value = "shop/phone", method = RequestMethod.POST)
-    public String addNewProduct(HttpServletRequest request) {
-
-        System.out.println("New: " + request.getAttribute("product"));
-
-        return "index";
+        return "accessories";
     }
 }

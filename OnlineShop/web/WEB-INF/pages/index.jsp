@@ -50,7 +50,7 @@
                 <div class="nav-main-wrap clearfix">
                     <ul class="nav-main clearfix">
                         <li class="active nav-main-item"><a class="nav-main-link" href="home">Main</a>|
-                        <li class="nav-main-item"><a class="nav-main-link"  href="#">Order and delivery</a>|
+                        <li class="nav-main-item"><a class="nav-main-link"  href="<c:url value="/shop/order/delivery"/>">Order and delivery</a>|
                         <li class="nav-main-item"><a class="nav-main-link"  href="#">Contacts</a>
                     </ul>
                 </div>

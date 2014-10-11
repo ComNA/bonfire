@@ -38,7 +38,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
 						<div class="logo">
-							<a class="logo-img" href="#"><img src="img/logo_2.png" alt="" title=""/></a>
+							<a class="logo-img" href="#"><img src="<c:url value="img/logo_2.png"/>" alt="" title=""/></a>
 						</div>
 					</div>
 				</div>

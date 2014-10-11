@@ -17,8 +17,8 @@ public class ProductService {
     IManagerDao managerDao;
 
     @Transactional
-    public Product getById(Product product, Integer id) {
-        return (Product) managerDao.getById(product.getClass(), id);
+    public Product getById (Integer id) {
+        return (Product) managerDao.getById(Product.class, id);
     }
 
     @Transactional
@@ -33,6 +33,11 @@ public class ProductService {
 
     @Transactional
     public List<Product> getTabletList(Product product) {
+        return managerDao.getTabletList(product.getClass());
+    }
+
+    @Transactional
+    public List<Product> getAccessoriesList(Product product) {
         return managerDao.getTabletList(product.getClass());
     }
 }
